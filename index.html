@@ -1,52 +1,65 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Resume</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="resume">
-      <div class="header">
-        <h1>SAHANA</h1>
-        <p>Email:name@gmail.com</p>
-      </div>
-      <div class="content">
-        <h2>EDUCATION</h2>
-        <p>B.Tech-ADS-2nd Year</p>
-        <p>@St.Joseph's Institute Of Technology</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Styled Portfolio</title>
 
-        <h2>EXPERIENCE</h2>
-        <p>
-          Fresher<br />
-          Building myself to get Experienced
-        </p>
-        <h2>QUALITIES</h2>
-        <ul>
-          <li>Good in Communication</li>
-          <li>Learning Capability</li>
-          <li>Leadership Quality</li>
-        </ul>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
 
-        <h2>SKILLS</h2>
-        <ul>
-          <li>Python Programming</li>
-          <li>Web Development-Basic Level</li>
-          <li>Java-Basic</li>
-        </ul>
-        <h2>CONTACT ME</h2>
-        <ul>
-          <li><a href="mailto:sahanasathish1002@gmail.com">E-Mail</a></li>
-          <br />
-          <li>
-            <a
-              href="https://www.linkedin.com/in/sahana-sahana-b6a957255?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B3SuaYs6mR3ONfrF%2FvYxngg%3D%3D"
-              >Linked In</a
-            >
-          </li>
-        </ul>
-      </div>
-    </div>
-  </body>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <h1>Sahanaa</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ABOUT -->
+        <section id="about" class="card">
+            <h2>About Me</h2>
+            <img src="https://thumbs.dreamstime.com/b/professional-businesswoman-avatar-flat-vector-graphic-accomplished-female-symbolizes-user-profile-corporate-identity-396897272.jpg" alt="Profile Image">
+            <p>
+                I am a final-year AI & Data Science student passionate about machine learning and web development.
+            </p>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="card">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>Machine Learning</li>
+                <li>HTML & CSS</li>
+            </ul>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="card">
+            <h2>Contact Me</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Thank You</p>
+    </footer>
+
+</body>
 </html>
